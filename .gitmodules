@@ -1,0 +1,3 @@
+[submodule "netlify-gatsby-deploy"]
+	path = netlify-gatsby-deploy
+	url = https://github.com/harlanv24/netlify-gatsby-deploy
