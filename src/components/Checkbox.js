@@ -1,8 +1,9 @@
+import React from 'react';
 class Checkbox extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        isChecked: true,
+        isChecked: false,
       };
     }
     toggleChange = () => {
