@@ -16,6 +16,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <input type="text" />
     <Link to="/page-2/">Click here to find out if GWA is right for you</Link>
     <p></p>
     <Link to="/about/">Click here to visit our about page</Link>
