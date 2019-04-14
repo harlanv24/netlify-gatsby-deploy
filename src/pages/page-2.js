@@ -6,13 +6,15 @@ import SEO from "../components/seo"
 import Checkbox from "../components/Checkbox"
 import TextField from "../components/TextField"
 
+class SecondPage extends React.Component {
 
-
-
-
-const SecondPage = () => (
-  <Layout>
-    <SEO title="Page two" />
+handleSubmit = event => {
+  event.preventDefault()
+  alert('Thank you! Your response has been submitted.')
+}
+    render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
     <p>Please check all of the companies that you work for:</p>
     <div>
     <label>
@@ -54,8 +56,12 @@ const SecondPage = () => (
       <Checkbox/>     
       <TextField/>
      </div>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+     <button type="submit">Submit</button>
+     </form>
+     )
+     }
+}
+<Link to="/">Go back to the homepage</Link>
+export default SecondPage;
 
-export default SecondPage
+
