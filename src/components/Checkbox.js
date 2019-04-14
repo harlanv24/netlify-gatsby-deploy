@@ -23,6 +23,8 @@ class Checkbox extends React.Component {
       );
     }
   }
+
+  export default Checkbox;
   
 
 
