@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Checkbox from "../components/Checkbox"
+
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +15,7 @@ const IndexPage = () => (
     <p>allowing you to focus on the things that are important</p>
     <p>rather than making you deal with different apps, payrates, and other headaches</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+      <Image/>
     </div>
     <Link to="/page-2/">Click here to enter the jobs you work for and see if GWA is for you</Link>
     <p></p>

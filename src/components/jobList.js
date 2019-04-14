@@ -2,7 +2,7 @@ import Checkbox from "../components/Checkbox"
 import TextField from "../components/TextField"
 import React from "react"
 
-class secondPage extends React.Component {
+class jobList extends React.Component {
 
 handleSubmit = event => {
   event.preventDefault()
@@ -58,6 +58,6 @@ handleSubmit = event => {
      }
 }
 
-export default secondPage;
+export default jobList;
 
 
