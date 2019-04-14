@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import ReactDOM from 'react-dom';
-import Application from './components/Application';
+import Application from "../components/Application"
 
 
 
