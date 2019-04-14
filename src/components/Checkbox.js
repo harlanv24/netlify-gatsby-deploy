@@ -23,11 +23,6 @@ class Checkbox extends React.Component {
       );
     }
   }
-  
-  ReactDOM.render(
-    <Checkbox />,
-    document.getElementById('checkbox')
-  );
 
   export default Checkbox;
   
