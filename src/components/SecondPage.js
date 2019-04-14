@@ -2,7 +2,7 @@ import Checkbox from "../components/Checkbox"
 import TextField from "../components/TextField"
 import React from "react"
 
-class SecondPage extends React.Component {
+class secondPage extends React.Component {
 
 handleSubmit = event => {
   event.preventDefault()
@@ -10,7 +10,7 @@ handleSubmit = event => {
 }
     render() {
     return (
-      <form name="jobList" method="POST" data-netlify="true"onSubmit={this.handleSubmit}>
+      <form name="jobList" method="POST" data-netlify="true">
     <p>Please check all of the companies that you work for:</p>
     <div>
     <label>
@@ -58,6 +58,6 @@ handleSubmit = event => {
      }
 }
 
-export default SecondPage;
+export default secondPage;
 
 
