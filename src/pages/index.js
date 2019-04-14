@@ -17,11 +17,6 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <label>
-      <Checkbox/>,
-      Uber
-      </label>
-    <div/>
     <Link to="/page-2/">Click here to enter the jobs you work for and see if GWA is for you</Link>
     <p></p>
   </Layout>
