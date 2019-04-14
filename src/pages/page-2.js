@@ -16,8 +16,7 @@ handleSubmit = event => {
     return (
       <Layout>
         <SEO title="Page Two"/>
-      <form name="jobList" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={this.handleSubmit}>
-      <input type="hidden" name="bot-field" />
+      <form name="jobList" method="POST" data-netlify="true"onSubmit={this.handleSubmit}>
     <p>Please check all of the companies that you work for:</p>
     <div>
     <label>
