@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Checkbox from "../components/Checkbox"
+import TextField from "../components/TextField"
 
 
 
@@ -51,7 +52,7 @@ const SecondPage = () => (
      </div>
      <div>
       <Checkbox/>     
-      <input type="text" value="Other- Please Specify"/>
+      <TextField/>
      </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
