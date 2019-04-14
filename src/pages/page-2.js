@@ -14,6 +14,8 @@ handleSubmit = event => {
 }
     render() {
     return (
+      <Layout>
+        <SEO title="Page Two"/>
       <form onSubmit={this.handleSubmit}>
     <p>Please check all of the companies that you work for:</p>
     <div>
@@ -58,6 +60,7 @@ handleSubmit = event => {
      </div>
      <button type="submit">Submit</button>
      </form>
+     </Layout>
      )
      }
 }
