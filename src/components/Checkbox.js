@@ -1,4 +1,3 @@
-
 class Checkbox extends React.Component {
     constructor(props) {
       super(props);
@@ -18,16 +17,12 @@ class Checkbox extends React.Component {
             checked={this.state.isChecked}
             onChange={this.toggleChange}
           />
-          Check Me!
+          this.props.label
          </label>
       );
     }
   }
   
-  window.onload = function() {
-    ReactDOM.render(
-      <Checkbox />,
-      document.getElementById('checkbox')
-    );
-  }
+
+
   
