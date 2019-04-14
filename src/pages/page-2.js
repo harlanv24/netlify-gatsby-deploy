@@ -18,7 +18,41 @@ const SecondPage = () => (
       <Checkbox/>
       Uber
       </label>
-      </div>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      Lyft
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      Amazon Flex
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      DoorDash
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      GrubHub
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      UberEats
+      </label>
+     </div>
+     <div>
+      <Checkbox/>     
+      <input type="text" value="Other- Please Specify"/>
+     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
