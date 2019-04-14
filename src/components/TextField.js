@@ -1,7 +1,7 @@
 import React from 'react';
 class TextField extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             search: 'Other- Please Specify'
         };
