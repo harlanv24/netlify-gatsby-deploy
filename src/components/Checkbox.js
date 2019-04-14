@@ -13,13 +13,10 @@ class Checkbox extends React.Component {
     }
     render() {
       return (
-        <label>
           <input type="checkbox"
             checked={this.state.isChecked}
             onChange={this.toggleChange}
           />
-          this.props.label
-         </label>
       );
     }
   }
