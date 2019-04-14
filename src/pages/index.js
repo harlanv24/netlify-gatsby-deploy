@@ -17,6 +17,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <input type="text" />
+    <div/>
     <Link to="/page-2/">Click here to find out if GWA is right for you</Link>
     <p></p>
     <Link to="/about/">Click here to visit our about page</Link>
