@@ -3,68 +3,21 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Checkbox from "../components/Checkbox"
-import TextField from "../components/TextField"
+import SecondPage from "../components/SecondPage"
 
-class SecondPage extends React.Component {
 
-handleSubmit = event => {
-  event.preventDefault()
-  alert('Thank you! Your response has been submitted.')
-}
-    render() {
-    return (
-      <Layout>
-        <SEO title="Page Two"/>
-      <form name="jobList" method="POST" data-netlify="true"onSubmit={this.handleSubmit}>
+
+
+
+const SecondPage = () => (
+  <Layout>
+    <SEO title="Page two" />
     <p>Please check all of the companies that you work for:</p>
     <div>
-    <label>
-      <Checkbox/>
-      Uber
-      </label>
-     </div>
-     <div>
-    <label>
-      <Checkbox/>
-      Lyft
-      </label>
-     </div>
-     <div>
-    <label>
-      <Checkbox/>
-      Amazon Flex
-      </label>
-     </div>
-     <div>
-    <label>
-      <Checkbox/>
-      DoorDash
-      </label>
-     </div>
-     <div>
-    <label>
-      <Checkbox/>
-      GrubHub
-      </label>
-     </div>
-     <div>
-    <label>
-      <Checkbox/>
-      UberEats
-      </label>
-     </div>
-     <div>
-      <Checkbox/>     
-      <TextField/>
-     </div>
-     <button type="submit">Submit</button>
-     </form>
-     </Layout>
-     )
-     }
-}
-<Link to="/">Go back to the homepage</Link>
-export default SecondPage;
+  <SecondPage/>
+      </div>
+    <Link to="/">Go back to the homepage</Link>
+  </Layout>
+)
 
-
+export default SecondPage

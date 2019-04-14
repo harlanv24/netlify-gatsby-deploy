@@ -1,0 +1,63 @@
+import Checkbox from "../components/Checkbox"
+import TextField from "../components/TextField"
+import React from "react"
+
+class SecondPage extends React.Component {
+
+handleSubmit = event => {
+  event.preventDefault()
+  alert('Thank you! Your response has been submitted.')
+}
+    render() {
+    return (
+      <form name="jobList" method="POST" data-netlify="true"onSubmit={this.handleSubmit}>
+    <p>Please check all of the companies that you work for:</p>
+    <div>
+    <label>
+      <Checkbox/>
+      Uber
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      Lyft
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      Amazon Flex
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      DoorDash
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      GrubHub
+      </label>
+     </div>
+     <div>
+    <label>
+      <Checkbox/>
+      UberEats
+      </label>
+     </div>
+     <div>
+      <Checkbox/>     
+      <TextField/>
+     </div>
+     <button type="submit">Submit</button>
+     </form>
+     )
+     }
+}
+
+export default SecondPage;
+
+
