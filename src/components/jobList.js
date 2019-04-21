@@ -2,7 +2,7 @@ import Checkbox from "../components/Checkbox"
 import TextField from "../components/TextField"
 import React from "react"
 
-class JobList extends React.Component {
+class Joblist extends React.Component {
 
 handleSubmit = event => {
   event.preventDefault()
@@ -10,7 +10,7 @@ handleSubmit = event => {
 }
     render() {
     return (
-      <form name="JobList" method="POST" data-netlify="true">
+      <form name="Joblist" method="POST" data-netlify="true">
     <p>Please check all of the companies that you work for:</p>
     <div>
     <label>
@@ -58,6 +58,6 @@ handleSubmit = event => {
      }
 }
 
-export default JobList;
+export default Joblist;
 
 

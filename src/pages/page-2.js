@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import JobList from "../components/JobList"
+import Joblist from "../components/Joblist"
 
 
 const SecondPage = () => (
@@ -11,7 +11,7 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <p>Please check all of the companies that you work for:</p>
     <div>
-  <JobList/>
+  <Joblist/>
       </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
