@@ -10,7 +10,7 @@ handleSubmit = event => {
 }
     render() {
     return (
-      <form name="jobList" method="POST" data-netlify="true">
+      <form name="JobList" method="POST" data-netlify="true">
     <p>Please check all of the companies that you work for:</p>
     <div>
     <label>
